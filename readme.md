@@ -49,3 +49,9 @@ O sistema é modularizado, com cada funcionalidade do CRUD (Cadastrar, Ler, Edit
     * `3` para editar o nome de um usuário.
     * `4` para apagar um usuário.
     * `5` para sair do programa.
+
+---
+
+## 👨‍💻 Autor
+
+Feito por **Hugo Barros**.
