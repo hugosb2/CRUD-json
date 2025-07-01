@@ -7,6 +7,6 @@ class ler:
 
         print("Total de Usuários: ", len(usuarios), "\n\nLista de usuários: \n")
 
-        for nome, dados in usuarios.items():
-            print(f"Nome: {nome}, Idade: {dados['idade']}, Email: {dados['email']}")
+        for usuario, dados in usuarios.items():
+            print(f"Nome: {usuario}, Nome: {dados['nome']}, Idade: {dados['idade']}, Email: {dados['email']}")
         print("\n\n")
