@@ -7,3 +7,4 @@ class ler:
 
         for nome, dados in usuarios.items():
             print(f"Nome: {nome}, Idade: {dados['idade']}, Email: {dados['email']}")
+        print("\n\n")
