@@ -16,26 +16,18 @@ O sistema é modularizado, com cada funcionalidade do CRUD (Cadastrar, Ler, Edit
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Python 3**
-* **Módulo `json`:** Para manipulação de arquivos JSON.
-* **Módulo `os`:** Para verificar a existência do arquivo de dados.
+* Python 3
+* Módulo `json`
+* Módulo `os`
 
 ## 📂 Estrutura do Projeto
-
-O projeto está organizado da seguinte forma:
-
-├── main.py         # Arquivo principal que executa o menu
-├── cadastro.py     # Contém a classe e a função para cadastrar usuários
-├── ler.py          # Contém a classe e a função para listar os usuários
-├── editar.py       # Contém a classe e a função para editar usuários
-├── exluir.py       # Contém a classe e a função para excluir usuários
-└── dados.json      # Arquivo gerado para armazenar os dados dos usuários
 
 * `main.py`: Ponto de entrada da aplicação. Apresenta um menu de opções para o usuário e chama as funcionalidades correspondentes das outras classes.
 * `cadastro.py`: Implementa a funcionalidade de **Criação (Create)**. Solicita os dados do usuário e os salva no arquivo `dados.json`.
 * `ler.py`: Implementa a funcionalidade de **Leitura (Read)**. Lê os dados do arquivo `dados.json` e os exibe no console.
 * `editar.py`: Implementa a funcionalidade de **Atualização (Update)**. Permite que o usuário renomeie um registro existente.
 * `exluir.py`: Implementa a funcionalidade de **Exclusão (Delete)**. Remove um registro de usuário do arquivo `dados.json`.
+* `dados.json`: Arquivo gerado para armazenar os dados dos usuários após a primeira execução.
 
 ## 🚀 Como Executar
 
