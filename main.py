@@ -1,7 +1,7 @@
 from cadastro import cadastro
 from ler import ler
 from editar import editar
-from exluir import excluir
+from excluir import excluir
 
 class CRUD:
     def main():
@@ -19,7 +19,9 @@ class CRUD:
             elif opcao == 4:
                 excluir.excluirDados()
             elif opcao == 5:
-                print("programa encerrado com sucesso!")
+                print("Programa encerrado com sucesso!")
                 break
+            else:
+                print("digite uma opção válida!")
 
 CRUD.main()

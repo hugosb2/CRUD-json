@@ -4,7 +4,7 @@ class cadastro:
     def cadastrarDados():
 
         nome = input("Digite seu nome: ")
-        idade = input("Digite sua idade: ")
+        idade = int(input("Digite sua idade: "))
         usuario = input("Digite um nome de usuário: ")
         email = input("Digite seu email: ")
 
@@ -24,4 +24,4 @@ class cadastro:
         with open ("dados.json", "w", encoding="utf-8") as arquivo:
             json.dump(usuarios, arquivo, indent=4, ensure_ascii=False)
 
-        print("Dados salvos com sucesso")
+        print("Dados salvos com sucesso!")
