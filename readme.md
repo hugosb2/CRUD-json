@@ -22,6 +22,16 @@ O sistema é modularizado, com cada funcionalidade do CRUD (Cadastrar, Ler, Edit
 
 ## 📂 Estrutura do Projeto
 
+O projeto está organizado da seguinte forma:
+
+
+CRUD Json/
+├── main.py
+├── cadastro.py
+├── ler.py
+├── excluir.py
+└── dados.json
+
 * `main.py`: Ponto de entrada da aplicação. Apresenta um menu de opções para o usuário e chama as funcionalidades correspondentes das outras classes.
 * `cadastro.py`: Implementa a funcionalidade de **Criação (Create)**. Solicita os dados do usuário e os salva no arquivo `dados.json`.
 * `ler.py`: Implementa a funcionalidade de **Leitura (Read)**. Lê os dados do arquivo `dados.json` e os exibe no console.
